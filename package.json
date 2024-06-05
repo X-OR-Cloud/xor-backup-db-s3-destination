@@ -1,0 +1,27 @@
+{
+  "name": "xor-backup-db-s3-destination",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.588.0",
+    "adm-zip": "^0.5.14",
+    "child_process": "^1.0.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "node-cron": "^3.0.3",
+    "node-telegram-bot-api": "^0.66.0",
+    "path": "^0.12.7",
+    "url": "^0.11.3",
+    "util": "^0.12.5"
+  }
+}
